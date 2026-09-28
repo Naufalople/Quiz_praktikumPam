@@ -73,8 +73,6 @@ class DestinasiDetailPage extends StatelessWidget {
 
                   const Divider(height: 30),
 
-                  // Informasi Tambahan (Genre, Penerbit, Jumlah Halaman)
-                  // 6. Genre
                   _infoRow(
                     Icons.access_time,
                     'Jam Buka',
@@ -82,11 +80,9 @@ class DestinasiDetailPage extends StatelessWidget {
                   ),
                   const SizedBox(height: 10),
 
-                  // 7. Penerbit
                   _infoRow(Icons.price_change, 'Tiket', destinasi.ticketInfo),
                   const SizedBox(height: 10),
 
-                  // 8. Jumlah Halaman
                   _infoRow(Icons.info, 'Informasi', destinasi.attraction),
                   const Divider(height: 30),
 
